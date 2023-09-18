@@ -293,7 +293,7 @@ span.middot {
 
 .divcenter2 {
 	float: left !important;
-	margin-left: 20px; !important;
+	margin-left: 20px !important;
 	margin-right: auto !important;
 }
 
@@ -8169,7 +8169,7 @@ body:not(.device-touch) .rounded-skill {
 	display: inline-block;
 	zoom: 1;
 	margin-top: 30px;
-	*display: inline;
+	display: inline;
 }
 
 .owl-theme .owl-dots .owl-dot span {
