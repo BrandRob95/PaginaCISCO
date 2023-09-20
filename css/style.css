@@ -4,6 +4,16 @@
 
 -----------------------------------------------------------------------------------*/
 
+.justificado {
+    text-align: justify;
+}
+
+.listaSemi {
+    list-style-type: disc; /* Cambia el tipo de marcador (bullet) */
+    padding-left: 50px; /* Añade sangría a la izquierda de la lista */
+    margin-top: 0; /* Elimina el espacio superior */
+    margin-bottom: 0; /* Elimina el espacio inferior */
+}
 
 dl, dt, dd, ol, ul, li {
 	margin: 0;
