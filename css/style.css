@@ -10144,33 +10144,3 @@ body:not(.no-transition) #wrapper,
 	margin:auto;
 	
 }
-
-.contenido {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#content .content-wrap p{
-	padding-left: 200px;
-	padding-right: 200px;
-	
-	font-size: 16px;
-}
-
-
-
-#content .content-wrap h4{
-	padding-left: 200px;
-	margin-bottom: 10px;
-}
-
-#content .content-wrap li{
-	list-style-type: none
-}
-
-
-#content .content-wrap h2{
-	padding-left: 200px;
-	padding-right: 180px;
-}
