@@ -4,35 +4,28 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 	width: auto;
 }
 
-#content .content-wrap .container-row .container-textImage img{
-    width: 200px;
+
+#content .content-wrap .container-row .container-text{
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 }
 
-#content .content-wrap .container-row .container-textImage {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
-#content .content-wrap .container-row .container-textImage p{
-    
-    max-width: 50%; /* Establece el ancho máximo del contenedor, ajusta según tus necesidades */
-}
-
-#container .content-wrap .container-row .container-image{
-    width: 25%;
+#content .content-wrap .container-row .container-image{
+	width: 30%;
 }
 
 
 /*estilo para parrafos*/
 
 #content .content-wrap p{
-	width: 65%;
+	width: 80%;
 	font-size: 16px;
 	
 }
