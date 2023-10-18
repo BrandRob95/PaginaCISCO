@@ -21,14 +21,13 @@
 	width: 30%;
 }
 
-
-/*estilo para parrafos*/
-
-#content .content-wrap p{
+#content .content-wrap .container-row p{
 	width: 80%;
 	font-size: 16px;
 	
 }
+
+
 
 
 /*estilo para encabezados*/
@@ -51,6 +50,39 @@
 	justify-content: center;
 	flex-direction: column;
 	width: auto;
+}
+
+#content .content-wrap .entry-content .container-row{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+#content .content-wrap .entry-content .container-row .container-text{
+	width: 80%;
+}
+
+#content .content-wrap .entry-content .container-row .container-image{
+	width: 10%;
+}
+
+#content .content-wrap .entry-content .container-row .container-image img{
+	padding: 5px;
+}
+
+#content .content-wrap .entry-content .container-row .container-text p{
+	width: 90%;
+}
+
+
+/*estilo para lo que puedes esperar*/
+
+#content .content-wrap .container-extra p{
+	width: 70%;
+	font-size: 16px ;
 }
 
 /*estilo para la lista */
