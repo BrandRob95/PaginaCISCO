@@ -10150,3 +10150,7 @@ body:not(.no-transition) #wrapper,
 	justify-content: center;
 	align-items: center;
 }
+
+.row .Galeria_ult .col-md-4 {
+	margin-bottom: 20px;
+}
