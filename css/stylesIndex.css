@@ -95,6 +95,37 @@
 	width: auto;
 }
 
+@media (max-width:900px) {
+
+	#content .content-wrap .container-row {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	/*estilos para nuestra mision*/
+	#content .content-wrap .entry-content .container-row{
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	#content .content-wrap .entry-content .container-row .container-image{
+		width: 30%;
+		margin-bottom: 20px;
+	}
+
+	#content .content-wrap .entry-content .container-row .container-text{
+		width: 80%;
+	}
+
+	
+}
+
 
 
 
