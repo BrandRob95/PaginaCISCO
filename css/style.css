@@ -10144,3 +10144,9 @@ body:not(.no-transition) #wrapper,
 	margin:auto;
 	
 }
+
+.entry-content .contenido {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
