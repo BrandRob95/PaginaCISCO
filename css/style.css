@@ -10154,3 +10154,14 @@ body:not(.no-transition) #wrapper,
 .row .Galeria_ult .col-md-4 {
 	margin-bottom: 20px;
 }
+
+/*estilo de staff*/
+.team img{
+    border-radius: 80%;
+}
+
+
+/*estilos texto general*/
+.textos-pag{
+	text-align: justify;
+}
