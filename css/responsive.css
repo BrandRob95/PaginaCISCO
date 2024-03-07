@@ -1907,6 +1907,19 @@
 
 @media (max-width: 479px) {
 
+	.container-row .container-text{
+		width: 100% !important;
+	}
+
+	.container-row .container-text .textos-pag{
+		width: 100% !important;
+	}
+
+	.container-row .container-text h2{
+		width: 100% !important;
+		text-align: center;
+	}
+
 	.container,
 	#header.full-header .container,
 	.container-fullwidth { width: 310px !important; }
